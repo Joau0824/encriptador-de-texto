@@ -1,0 +1,138 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f8fc;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #1d3557;
+}
+
+.container {
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 90%;
+    max-width: 1200px;
+    height: 90vh;
+}
+
+.left-panel {
+    flex: 2;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f0f4f8;
+    position: relative;
+}
+
+.logo img {
+    width: 40px;
+    margin-bottom: 20px;
+}
+
+#input-text {
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    resize: none;
+    background-color: #ffffff;
+    color: #1d3557;
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: auto;
+}
+
+.options p {
+    font-size: 14px;
+    color: #6c757d;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.btn-primary {
+    background-color: #1d3557;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+    width: 150px;
+}
+
+.btn-primary:hover {
+    background-color: #457b9d;
+}
+
+.btn-secondary {
+    background-color: #f1faee;
+    color: #1d3557;
+    border: 1px solid #1d3557;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 150px;
+}
+
+.btn-secondary:hover {
+    background-color: #e9ecef;
+}
+
+.right-panel {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f8fc;
+    padding: 30px;
+    text-align: center;
+}
+
+#empty-message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#empty-message img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+#empty-message p {
+    color: #1d3557;
+    margin: 0;
+    font-size: 18px;
+}
+
+#output-text {
+    display: none;
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    font-size: 18px;
+    background-color: #ffffff;
+    color: #1d3557;
+    resize: none;
+}
+
